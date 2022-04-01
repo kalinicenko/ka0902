@@ -1,0 +1,262 @@
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    font-family: 'Oswald',Arial,sans-serif;
+    margin-top: -15px;
+}
+menu{
+    display: flex;
+    padding: 0;
+    height: 120px;
+    width: 100%;
+}
+a{
+    padding: 40px 35px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+header{
+    background-image: url(img/машина.png);
+    min-height: 100%;
+
+}
+p{
+    color: white;
+}
+p span{
+    color: yellow;
+}
+li {
+    list-style-type: none;
+}
+.servis1{
+    color: #505050;
+    text-align: center;
+    font-size: 25px;
+}
+.uli ul{
+    display: flex;
+}
+.modeli{
+    background-image: url(img/MercedesC200.png);
+    width: 100%;
+}
+.modeli2 a{
+    color: black;
+}
+.logotip{
+    height: 70px;
+    padding: 30px;
+}
+.nazvania{
+    padding: 40px 0px;
+}
+.slogan{
+    margin-left: 200px;
+        font-size: 50px;
+        margin-top: 250px;
+    font-size: 50px;
+    line-height: 1.55;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-top: 200px;
+}
+.odin{
+    font-size: 25px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffcc00;
+    font-weight: 900;
+    width: 300px;
+    margin: 200px 40px 200px 300px ;
+}
+.dva{
+    font-size: 25px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ffcc00;
+    font-weight: 900;
+    width: 300px;
+    margin: 200px 0px 200px 40px ;
+}
+h1{
+    font-size: 40px; 
+    text-align: center;
+    padding: 20px 0;
+}
+.ul li{
+    width: 25%;
+}
+.servis{
+    width: 348px;
+}
+.servis1_1{
+    text-align: center;
+}
+.modeli2 a{
+    font-size: 25px;
+    padding: 10px;
+    line-height: 2;
+}
+.modeli2{
+    text-align: right;
+    padding-right: 50px;
+}
+.spisok{
+    font-size: 25px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ffcc00;
+    font-weight: 900;
+    width: 300px;
+    margin: 80px 0px 100px 0px ;
+}
+footer{
+    background-color: #A9A9A9;
+    display: flex;
+}
+.footer{
+    width: 32%;
+}
+footer p{
+    color: black;
+    font-size: 25px;
+}
+.logotip1{
+    height: 100px;
+    padding: 15px;
+}
+ul{
+    padding: 0;
+}
+/* Новости */
+.h1 h1{
+    text-align: left;
+}
+.novs1_1 img{
+    width: 400px;
+    height: 300px;
+}
+.data{
+    color: black;
+    font-size: 25px;
+}
+.nadpis{
+    color: #505050;
+    font-size: 25px;
+}
+.novs1, .novs2, .novs3{
+    display: flex;
+    text-align: left;
+    padding: 2%;
+}
+.novs1_1{
+    width: 470px;
+    height: 470px;
+    display: block;
+}
+.novs1_1 a{
+    padding: 0px;
+}
+/* новости подробнее */
+.chs img{
+    width: 600px;
+    
+}
+.chs, .chs1{
+    text-align: center;
+}
+.chs1 img{
+    width: 90%;
+    
+}
+.text p{
+    line-height: 2;
+    color: #000;
+    font-size: 20px;
+    padding: 20px;
+}
+h2{
+    padding: 0 20px;
+}
+.text img{
+    width: 600px;  
+}
+.text, .text1{
+    text-align: center;
+}
+.text1 p{
+    line-height: 2;
+    color: #000;
+    font-size: 20px;
+    padding: 20px;
+}
+.text1 img{
+    width: 600px;  
+}
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+.dropbtn {
+    background-color: #ffcc00;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+margin-right: 20px;
+}
+.dropbtn img{
+    width: 40px;
+    height: 40px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-right: 20px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(205, 205, 205);}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #ffcc00;}
